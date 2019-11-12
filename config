@@ -1,0 +1,31 @@
+Host teenanas
+	Hostname teenanas.demitripp.is-a-geek.net
+	User Dimitri
+	Port 242
+	IdentityFile ~/.ssh/demitripp.private
+	LogLevel INFO
+	Compression yes
+
+Host tv-mini-box
+	Hostname tv-mini-box.demitripp.is-a-geek.net
+	User Dimitri
+	Port 22
+	IdentityFile ~/.ssh/demitripp.private
+	LogLevel INFO
+	Compression yes
+
+Host wrt dd-wrt ddwrt router
+	Hostname 192.168.2.1
+	User root
+	Port 22
+	IdentityFile ~/.ssh/demitripp.private
+	LogLevel INFO
+	Compression yes
+
+Host black-pc
+	Hostname black-pc.demitripp.is-a-geek.net
+	User dimitri
+	Port 22
+	IdentityFile ~/.ssh/demitripp.private
+	LogLevel INFO
+	Compression yes
